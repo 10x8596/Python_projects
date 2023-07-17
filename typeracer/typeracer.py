@@ -6,7 +6,7 @@ def start_screen(stdscr):
     stdscr.clear()
     stdscr.addstr("Welcome to TypeRacer!")
     stdscr.addstr("\nTest your typing speed (wpm) by typing out the phrase on screen as quick as possible without making any mistakes!")
-    stdscr.addstr("\nPress any key to start typing")
+    stdscr.addstr("\nPress any key to begin typing")
     stdscr.refresh()
     # Register user's keystrokes and store in variable
     stdscr.getkey()
@@ -37,3 +37,5 @@ def main(stdscr):
     wpm_test(stdscr)
 
 wrapper(main)
+
+# typing speed test app
